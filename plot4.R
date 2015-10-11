@@ -28,7 +28,7 @@ plot(x$DateTime, x$Sub_metering_1, type="n", xlab="", ylab="Energy sub metering"
 lines(x$DateTime, x$Sub_metering_1, col="black")
 lines(x$DateTime, x$Sub_metering_2, col="red")
 lines(x$DateTime, x$Sub_metering_3, col="blue")
-legend("topright", pch=c(NA,NA,8), lty=c(1,1,1), cex=1, bty="n", col=c("black", "red", "blue"), legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
+legend("topright", lty=c(1,1,1), cex=1, bty="n", col=c("black", "red", "blue"), legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
 
 # plot 4
 
